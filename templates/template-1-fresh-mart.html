@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imported Bites | Pakistan's Imported Food Store</title>
+<meta name="description" content="Imported Bites brings authentic imported chocolates, snacks, beverages and more to Pakistan. Cash on delivery, nationwide shipping, 100% genuine products.">
+<style>
+:root{
+  --green:#1FA855;
+  --green-dark:#168A44;
+  --green-light:#E8F7ED;
+  --slate:#1E293B;
+  --slate-soft:#475569;
+  --slate-mute:#94A3B8;
+  --bg:#FFFFFF;
+  --bg-soft:#F8FAF9;
+  --card:#FFFFFF;
+  --border:#E8EEEC;
+  --radius:16px;
+  --shadow:0 6px 20px rgba(16,24,40,.08);
+  --shadow-hover:0 12px 28px rgba(16,24,40,.14);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;color:var(--slate);background:var(--bg);line-height:1.6}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* Announcement bar */
+.announce{background:var(--green);color:#fff;text-align:center;font-size:.9rem;padding:10px 16px;font-weight:600;letter-spacing:.2px}
+.announce span{display:inline-block;margin:0 10px}
+
+/* Header */
+header{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{display:flex;align-items:center;gap:10px;font-size:1.45rem;font-weight:800;color:var(--slate)}
+.logo .mark{width:42px;height:42px;border-radius:12px;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem}
+.logo small{display:block;font-size:.72rem;font-weight:600;color:var(--slate-mute);line-height:1.2}
+nav.main-nav{display:flex;gap:26px}
+nav.main-nav a{font-weight:600;font-size:1rem;color:var(--slate-soft);padding:6px 2px;border-bottom:2px solid transparent}
+nav.main-nav a:hover,nav.main-nav a.active{color:var(--green);border-bottom-color:var(--green)}
+.header-actions{display:flex;align-items:center;gap:14px}
+.search{border:1.5px solid var(--border);border-radius:999px;padding:8px 16px;font-size:.92rem;color:var(--slate-mute);min-width:200px}
+.cart-btn{position:relative;background:var(--green-light);border:none;border-radius:999px;width:46px;height:46px;font-size:1.35rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.cart-count{position:absolute;top:-6px;right:-6px;background:var(--green);color:#fff;font-size:.72rem;font-weight:700;border-radius:999px;min-width:22px;height:22px;display:flex;align-items:center;justify-content:center;padding:0 6px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--green-light) 0%,#F2FBF5 60%,#FFFFFF 100%);border-bottom:1px solid var(--border)}
+.hero-inner{display:flex;align-items:center;gap:40px;padding:64px 0;flex-wrap:wrap}
+.hero-copy{flex:1 1 340px}
+.hero-badge{display:inline-block;background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 16px;font-size:.82rem;font-weight:700;color:var(--green);margin-bottom:18px}
+.hero h1{font-size:2.6rem;line-height:1.2;margin-bottom:16px}
+.hero h1 .hl{color:var(--green)}
+.hero p{color:var(--slate-soft);font-size:1.08rem;margin-bottom:26px;max-width:480px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 30px;border-radius:999px;font-weight:700;font-size:1rem;cursor:pointer;border:none}
+.btn-primary{background:var(--green);color:#fff;box-shadow:0 8px 20px rgba(31,168,85,.3)}
+.btn-primary:hover{background:var(--green-dark)}
+.btn-outline{background:#fff;color:var(--green);border:2px solid var(--green)}
+.btn-outline:hover{background:var(--green-light)}
+.hero-visual{flex:1 1 300px;display:flex;align-items:center;justify-content:center}
+.hero-collage{display:grid;grid-template-columns:repeat(3,96px);gap:12px}
+.hero-tile{width:96px;height:96px;border-radius:20px;background:#fff;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;font-size:2.4rem}
+.hero-tile:nth-child(2){transform:translateY(-10px)}
+.hero-tile:nth-child(5){transform:translateY(-10px)}
+
+/* Section titles */
+section{padding:56px 0}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:10px}
+.section-head h2{font-size:1.7rem}
+.section-head p{color:var(--slate-mute);font-size:.95rem}
+.link-more{color:var(--green);font-weight:700;font-size:.95rem}
+
+/* Category tiles */
+.cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.cat-card{background:var(--bg-soft);border:1px solid var(--border);border-radius:var(--radius);padding:28px 14px;text-align:center;transition:transform .2s,box-shadow .2s}
+.cat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);background:#fff}
+.cat-emoji{font-size:2.6rem;display:block;margin-bottom:12px}
+.cat-card h3{font-size:1.02rem;font-weight:700}
+.cat-card p{font-size:.84rem;color:var(--slate-mute)}
+
+/* Product grid */
+.prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.prod-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.prod-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-hover)}
+.prod-img{height:170px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(145deg,var(--green-light),#F4FAF6)}
+.prod-badge{position:absolute;top:10px;left:10px;background:var(--green);color:#fff;font-size:.72rem;font-weight:700;border-radius:999px;padding:4px 12px}
+.prod-img-wrap{position:relative}
+.prod-body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.prod-brand{font-size:.78rem;color:var(--slate-mute);font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.prod-name{font-size:1.02rem;font-weight:700;line-height:1.35}
+.prod-price{font-size:1.2rem;font-weight:800;color:var(--green)}
+.prod-price del{font-size:.88rem;color:var(--slate-mute);font-weight:400;margin-left:8px}
+.prod-actions{margin-top:auto;display:flex;flex-direction:column;gap:8px}
+.btn-wa{background:#25D366;color:#fff;padding:11px;border-radius:10px;font-weight:700;font-size:.92rem;border:none;cursor:pointer}
+.btn-wa:hover{background:#1DA851}
+.btn-cart{background:#fff;color:var(--green);border:2px solid var(--green);padding:9px;border-radius:10px;font-weight:700;font-size:.92rem;cursor:pointer}
+.btn-cart:hover{background:var(--green-light)}
+
+/* Trust badges */
+.trust{background:var(--bg-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.trust-item{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:26px 20px;text-align:center}
+.trust-item .t-emoji{font-size:2.2rem;display:block;margin-bottom:10px}
+.trust-item h3{font-size:1.05rem;margin-bottom:6px}
+.trust-item p{font-size:.9rem;color:var(--slate-soft)}
+
+/* Footer */
+footer{background:var(--slate);color:#CBD5E1;padding:48px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;padding-bottom:36px}
+.footer-brand{font-size:1.3rem;font-weight:800;color:#fff;margin-bottom:10px}
+.footer-brand .mark{display:inline-flex;width:36px;height:36px;border-radius:10px;background:var(--green);color:#fff;align-items:center;justify-content:center;font-size:1.2rem;margin-right:8px;vertical-align:middle}
+footer p{font-size:.92rem;color:#94A3B8}
+footer h4{color:#fff;font-size:1rem;margin-bottom:14px}
+footer ul{list-style:none}
+footer ul li{margin-bottom:10px}
+footer ul a{font-size:.92rem;color:#CBD5E1}
+footer ul a:hover{color:#fff}
+.footer-bottom{border-top:1px solid #334155;padding:18px 0;text-align:center;font-size:.85rem;color:#94A3B8}
+
+/* Responsive */
+@media(max-width:980px){
+  .cat-grid{grid-template-columns:repeat(3,1fr)}
+  .prod-grid{grid-template-columns:repeat(2,1fr)}
+  nav.main-nav{display:none}
+  .search{display:none}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .hero h1{font-size:2.1rem}
+}
+@media(max-width:560px){
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .prod-grid{grid-template-columns:1fr 1fr;gap:14px}
+  .trust-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-inner{padding:44px 0}
+  section{padding:40px 0}
+  .prod-img{height:130px;font-size:3rem}
+}
+</style>
+</head>
+<body>
+
+<div class="announce">
+  <span>Cash on Delivery Available Nationwide</span>
+  <span>|</span>
+  <span>Free Shipping on Orders Over Rs 3,000</span>
+  <span>|</span>
+  <span>100% Authentic Imported Products</span>
+</div>
+
+<header>
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      <span class="mark">&#x1F6D2;</span>
+      <span>Imported Bites<small>Pakistan's Imported Food Store</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="#" class="active">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Categories</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <span class="search">Search products...</span>
+      <button class="cart-btn" aria-label="Cart">&#x1F6D2;<span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="hero-badge">New Stock Arrived From Dubai</span>
+      <h1>Your Favourite <span class="hl">Imported Foods</span>, Delivered Across Pakistan</h1>
+      <p>Shop genuine international chocolates, snacks, beverages and breakfast essentials with cash on delivery at your doorstep. From Karachi to Lahore to Islamabad.</p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary">Shop Best Sellers</a>
+        <a href="#" class="btn btn-outline">Browse Categories</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-collage">
+        <div class="hero-tile">&#x1F36B;</div>
+        <div class="hero-tile">&#x1F964;</div>
+        <div class="hero-tile">&#x1F36A;</div>
+        <div class="hero-tile">&#x1F95B;</div>
+        <div class="hero-tile">&#x1F37A;</div>
+        <div class="hero-tile">&#x1F36C;</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Shop By Category</h2>
+        <p>Imported favourites, organised for quick shopping</p>
+      </div>
+      <a href="#" class="link-more">View All Categories</a>
+    </div>
+    <div class="cat-grid">
+      <a href="#" class="cat-card"><span class="cat-emoji">&#x1F36B;</span><h3>Chocolates</h3><p>120 Products</p></a>
+      <a href="#" class="cat-card"><span class="cat-emoji">&#x1F35F;</span><h3>Snacks</h3><p>95 Products</p></a>
+      <a href="#" class="cat-card"><span class="cat-emoji">&#x1F964;</span><h3>Beverages</h3><p>80 Products</p></a>
+      <a href="#" class="cat-card"><span class="cat-emoji">&#x1F95E;</span><h3>Breakfast</h3><p>64 Products</p></a>
+      <a href="#" class="cat-card"><span class="cat-emoji">&#x1F37C;</span><h3>Baby &amp; Kids</h3><p>52 Products</p></a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg-soft);border-top:1px solid var(--border)">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Featured Products</h2>
+        <p>This week's most loved imported picks</p>
+      </div>
+      <a href="#" class="link-more">View All Products</a>
+    </div>
+    <div class="prod-grid">
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <span class="prod-badge">Best Seller</span>
+          <div class="prod-img">&#x1FAD9;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Nutella</span>
+          <h3 class="prod-name">Nutella Hazelnut Spread 350g</h3>
+          <div class="prod-price">Rs 1,450 <del>Rs 1,650</del></div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <span class="prod-badge">New Arrival</span>
+          <div class="prod-img">&#x1F36B;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Toblerone</span>
+          <h3 class="prod-name">Toblerone Milk Chocolate 100g</h3>
+          <div class="prod-price">Rs 850</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <div class="prod-img">&#x1F35F;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Pringles</span>
+          <h3 class="prod-name">Pringles Original 110g</h3>
+          <div class="prod-price">Rs 650</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <span class="prod-badge">Gift Pick</span>
+          <div class="prod-img">&#x1F381;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Ferrero Rocher</span>
+          <h3 class="prod-name">Ferrero Rocher Box 16 Pieces</h3>
+          <div class="prod-price">Rs 2,800</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <div class="prod-img">&#x2615;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Nescafe</span>
+          <h3 class="prod-name">Nescafe Gold Instant Coffee 200g</h3>
+          <div class="prod-price">Rs 3,200</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <span class="prod-badge">4 Pack</span>
+          <div class="prod-img">&#x26A1;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Red Bull</span>
+          <h3 class="prod-name">Red Bull Energy Drink 4 Pack</h3>
+          <div class="prod-price">Rs 1,600</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <div class="prod-img">&#x1F36B;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Lindt</span>
+          <h3 class="prod-name">Lindt Excellence 70% Cocoa 100g</h3>
+          <div class="prod-price">Rs 1,200</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card">
+        <div class="prod-img-wrap">
+          <span class="prod-badge">Kids Favourite</span>
+          <div class="prod-img">&#x1F36C;</div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">Haribo</span>
+          <h3 class="prod-name">Haribo Goldbears Gummies 200g</h3>
+          <div class="prod-price">Rs 950</div>
+          <div class="prod-actions">
+            <button class="btn-wa">Order on WhatsApp</button>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container">
+    <div class="section-head">
+      <h2>Why Shop With Imported Bites</h2>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <span class="t-emoji">&#x2705;</span>
+        <h3>100% Authentic Imported</h3>
+        <p>Every product is sourced from official distributors. No fakes, no expired stock, guaranteed genuine.</p>
+      </div>
+      <div class="trust-item">
+        <span class="t-emoji">&#x1F4B5;</span>
+        <h3>Cash on Delivery</h3>
+        <p>Pay when your order arrives. No advance payment needed for orders anywhere in Pakistan.</p>
+      </div>
+      <div class="trust-item">
+        <span class="t-emoji">&#x1F69A;</span>
+        <h3>Nationwide Shipping</h3>
+        <p>Fast, careful delivery to Karachi, Lahore, Islamabad and every city in between.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="mark">&#x1F6D2;</span>Imported Bites</div>
+        <p>Pakistan's trusted store for authentic imported chocolates, snacks, beverages and grocery essentials. Order easily on WhatsApp or online.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Chocolates</a></li>
+          <li><a href="#">Snacks</a></li>
+          <li><a href="#">Beverages</a></li>
+          <li><a href="#">Breakfast</a></li>
+          <li><a href="#">Baby &amp; Kids</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">WhatsApp Orders</a></li>
+          <li><a href="#">Track My Order</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Imported Bites. All rights reserved. Made for Pakistan.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
