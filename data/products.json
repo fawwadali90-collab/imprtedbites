@@ -1,0 +1,459 @@
+{
+  "_comment": "Confirmed product list received 2026-10-31. All prices wired from this file; the owner will edit prices later in the dashboard. Items flagged price_estimate need owner confirmation. Stevia brand TBD.",
+  "products": [
+    {
+      "badge": "Bestseller",
+      "category": "cat-dry-food",
+      "desc": "Me-O Adult Tuna 1.1kg is the Thailand manufactured dry food that Pakistan's cat owners buy on repeat, and for good reason: it delivers complete daily nutrition with real tuna flavour that even fussy eaters accept. The kibble is sized for adult jaws, fortified with taurine for healthy eyes and heart, omega-3 and omega-6 fatty acids for a glossy coat, and balanced minerals that support urinary health. A 1.1kg bag feeds an average 4kg adult cat for roughly three weeks at the recommended daily portion, which makes the PKR 2000 price easy to budget monthly. Transition new cats gradually over seven days, mixing increasing amounts with the old food to avoid stomach upset. Store the bag rolled shut in a cool dry place, and always keep fresh water beside the bowl, because dry food diets demand good hydration. Every bag we sell is factory sealed with clear Thailand origin printing, a readable batch code and a printed expiry date, so you can verify authenticity before you open it.",
+      "emoji": "🐱",
+      "genuine": [
+        "Look for clear Made in Thailand printing on the back of the bag, blurry origin text is a red flag.",
+        "The batch code should be sharply printed near the seal, never smudged or hand stamped.",
+        "Check the printed expiry date for several months of shelf life remaining.",
+        "The bag must be factory sealed with no re glued seams, and carry an importer label."
+      ],
+      "meta": "Buy Me-O Adult Tuna 1.1kg cat food in Pakistan for PKR 2000. Thailand origin, sealed bag, printed expiry, cash on delivery nationwide.",
+      "name": "Me-O Adult Tuna 1.1kg (Thailand)",
+      "price": 2000,
+      "related": [
+        "me-o-persian-anti-hairball-1-1kg",
+        "me-o-kitten-1-1kg",
+        "me-o-mother-baby-cat-1-1kg"
+      ],
+      "slug": "me-o-adult-tuna-1-1kg",
+      "stock": 24,
+      "image": "meo-adult-tuna.png"
+    },
+    {
+      "badge": "Longhair Formula",
+      "category": "cat-dry-food",
+      "desc": "Longhaired cats like Persians swallow more loose fur while grooming, and the Me-O Persian Adult Anti Hairball 1.1kg is built specifically for that problem. Its natural fibre blend helps swallowed hair pass through the digestive tract instead of forming hairballs, while omega fatty acids nourish the long coat from the inside so there is less loose fur to swallow in the first place. The recipe carries the same Me-O foundations Pakistani owners trust: tuna based protein, taurine for eyes and heart, and balanced minerals for urinary tract health, all manufactured in Thailand under strict quality control. Feed according to the weight chart on the bag, brush your Persian three to four times a week to support the anti hairball effect, and keep fresh water available at all times. At PKR 2200 for 1.1kg, it costs slightly more than the standard adult formula, but owners of Persians, Himalayans and other longhairs usually find the coat and hairball difference worth it within the first bag.",
+      "emoji": "🐱",
+      "genuine": [
+        "Look for clear Made in Thailand printing on the back of the bag, blurry origin text is a red flag.",
+        "The batch code should be sharply printed near the seal, never smudged or hand stamped.",
+        "Check the printed expiry date for several months of shelf life remaining.",
+        "The bag must be factory sealed with no re glued seams, and carry an importer label."
+      ],
+      "meta": "Buy Me-O Persian Adult Anti Hairball 1.1kg in Pakistan for PKR 2200. Thailand origin cat food, sealed bag, printed expiry, COD nationwide.",
+      "name": "Me-O Persian Adult Anti Hairball 1.1kg",
+      "price": 2200,
+      "related": [
+        "me-o-adult-tuna-1-1kg",
+        "me-o-mother-baby-cat-1-1kg",
+        "whiskas-adult-chicken-1-9kg"
+      ],
+      "slug": "me-o-persian-anti-hairball-1-1kg",
+      "stock": 15,
+      "image": "meo-persian-hairball.jpg"
+    },
+    {
+      "badge": "Kitten Growth",
+      "category": "cat-dry-food",
+      "desc": "Kittens grow at an astonishing rate in their first year, and the Me-O Kitten 1.1kg formula is calibrated for exactly that phase, with higher protein and fat levels than adult food to fuel growth, plus DHA to support brain and vision development. The smaller kibble size suits tiny teeth and jaws, and the tuna flavour encourages kittens to eat confidently from weaning onward. Feed kittens under six months three to four small meals a day, dropping to two to three meals as they approach their first birthday, and switch to an adult formula around twelve months. Note: the PKR 2100 price is currently an estimate pending our next landed cost confirmation; we will honour the listed price on pre-orders placed now. As with all our Me-O stock, this is genuine Thailand manufactured product in a factory sealed bag with a readable batch code and printed expiry date. Pair it with Whiskas kitten pouches for a mixed diet that keeps hydration up during the critical growth months.",
+      "emoji": "🐱",
+      "genuine": [
+        "Look for clear Made in Thailand printing on the back of the bag, blurry origin text is a red flag.",
+        "The batch code should be sharply printed near the seal, never smudged or hand stamped.",
+        "Check the printed expiry date for several months of shelf life remaining.",
+        "The bag must be factory sealed with no re glued seams, and carry an importer label."
+      ],
+      "meta": "Buy Me-O Kitten 1.1kg cat food in Pakistan for PKR 2100. Thailand origin kitten formula, sealed bag, printed expiry, cash on delivery.",
+      "name": "Me-O Kitten 1.1kg",
+      "price": 2100,
+      "price_estimate": true,
+      "related": [
+        "whiskas-kitten-chicken-1-9kg",
+        "me-o-adult-tuna-1-1kg",
+        "whiskas-junior-1-1kg"
+      ],
+      "slug": "me-o-kitten-1-1kg",
+      "stock": 18,
+      "image": "meo-kitten.jpg"
+    },
+    {
+      "category": "cat-dry-food",
+      "desc": "Pregnant and nursing queens have the highest nutritional demands of any adult cat, and Me-O Mother and Baby Cat 1.1kg is formulated to meet them, with dense calories, elevated protein and extra calcium to support both the mother and her developing kittens. The same recipe works beautifully for weaning kittens from four weeks old: the small kibble softens quickly in warm water into a mash they can lap up, bridging the gap between mother's milk and solid food. Feed the queen freely during nursing, she will eat far more than usual, and introduce the softened kibble to kittens gradually from week four. This Thailand manufactured formula carries the full Me-O quality markers: taurine, omega fatty acids and balanced minerals in a factory sealed bag. At PKR 2000 for 1.1kg it is the economical way to feed a nursing household, where food disappears fast. Always keep fresh water available, and move kittens to a dedicated kitten formula around eight to twelve weeks for the next growth stage.",
+      "emoji": "🐱",
+      "genuine": [
+        "Look for clear Made in Thailand printing on the back of the bag, blurry origin text is a red flag.",
+        "The batch code should be sharply printed near the seal, never smudged or hand stamped.",
+        "Check the printed expiry date for several months of shelf life remaining.",
+        "The bag must be factory sealed with no re glued seams, and carry an importer label."
+      ],
+      "meta": "Buy Me-O Mother and Baby Cat 1.1kg in Pakistan for PKR 2000. Thailand origin formula for queens and kittens, sealed bag, COD nationwide.",
+      "name": "Me-O Mother and Baby Cat 1.1kg",
+      "price": 2000,
+      "related": [
+        "me-o-kitten-1-1kg",
+        "me-o-adult-tuna-1-1kg",
+        "me-o-persian-anti-hairball-1-1kg"
+      ],
+      "slug": "me-o-mother-baby-cat-1-1kg",
+      "stock": 12,
+      "image": "meo-mother-baby.jpg"
+    },
+    {
+      "badge": "Value Pack",
+      "category": "cat-dry-food",
+      "desc": "For multi-cat households, the Whiskas Adult Chicken 1.9kg bag is the smart buy: nearly double the standard bag at a lower price per kilogram, working out to roughly PKR 2526 per kg against the smaller packs. The chicken recipe delivers complete adult nutrition with the protein cats need as obligate carnivores, plus taurine, essential vitamins and minerals, and a crunchy kibble texture that helps reduce tartar buildup. Whiskas is manufactured to consistent global standards, and our stock is genuine import with clear origin printing, sharp batch codes and printed expiry dates on every bag. A 1.9kg bag feeds one average adult cat for about five weeks, or two cats for two and a half, so the PKR 4800 outlay covers a real stretch of time. Reseal the bag tightly or decant into an airtight container after opening to keep the kibble fresh in our humidity. If your cat is new to Whiskas, transition over seven days to keep digestion settled.",
+      "emoji": "🐱",
+      "genuine": [
+        "Check the manufacturing origin printing on the bag, it should be sharp and complete.",
+        "The batch code should be clearly printed near the seal, never smudged or missing.",
+        "Verify the printed expiry date gives several months of shelf life.",
+        "The bag must be factory sealed with intact seams and carry an importer label."
+      ],
+      "meta": "Buy Whiskas Adult Chicken 1.9kg cat food in Pakistan for PKR 4800. Genuine imported dry food, sealed bag, printed expiry, COD nationwide.",
+      "name": "Whiskas Adult Chicken 1.9kg",
+      "price": 4800,
+      "related": [
+        "whiskas-kitten-chicken-1-9kg",
+        "whiskas-junior-1-1kg",
+        "me-o-adult-tuna-1-1kg"
+      ],
+      "slug": "whiskas-adult-chicken-1-9kg",
+      "stock": 10,
+      "image": "whiskas-adult-chicken-1-9kg.jpg"
+    },
+    {
+      "badge": "Low Stock",
+      "category": "cat-dry-food",
+      "desc": "The first twelve months shape a cat for life, and Whiskas Kitten Chicken 1.9kg gives growing kittens the protein rich, calorie dense nutrition that rapid growth demands. The recipe includes DHA for developing brains and eyesight, calcium and phosphorus for strong bones and teeth, and small crunchy kibble pieces sized for kitten mouths. The 1.9kg value bag brings the per kilogram cost down for owners raising one kitten or a whole litter, working out near PKR 2632 per kg. Feed kittens three to four meals daily up to six months, then two to three meals until the first birthday, when you switch to an adult formula. Stock on this size moves fast and is currently low, so order before the next shipment if your kitten is mid growth spurt. Every bag is genuine imported stock with clear origin printing, a sharp batch code and a printed expiry date. Combine with Whiskas kitten pouches for the mixed feeding routine vets commonly recommend.",
+      "emoji": "🐱",
+      "genuine": [
+        "Check the manufacturing origin printing on the bag, it should be sharp and complete.",
+        "The batch code should be clearly printed near the seal, never smudged or missing.",
+        "Verify the printed expiry date gives several months of shelf life.",
+        "The bag must be factory sealed with intact seams and carry an importer label."
+      ],
+      "meta": "Buy Whiskas Kitten Chicken 1.9kg in Pakistan for PKR 5000. Genuine imported kitten food, sealed bag, printed expiry, cash on delivery.",
+      "name": "Whiskas Kitten Chicken 1.9kg",
+      "price": 5000,
+      "related": [
+        "me-o-kitten-1-1kg",
+        "whiskas-junior-1-1kg",
+        "whiskas-adult-chicken-1-9kg"
+      ],
+      "slug": "whiskas-kitten-chicken-1-9kg",
+      "stock": 8,
+      "image": "whiskas-kitten-chicken-1-9kg.jpg"
+    },
+    {
+      "category": "cat-dry-food",
+      "desc": "Whiskas Junior 1.1kg bridges the gap between kittenhood and adulthood, formulated for young cats from around twelve months who are still active and growing into their full frame. The recipe balances protein for muscle maintenance with controlled fat levels so young adults stay lean, alongside taurine, vitamins and minerals for eyes, coat and immunity. The 1.1kg bag is the right size for single cat households, staying fresh from opening to finish without going stale, and at PKR 2499 it is an accessible entry point into the Whiskas range. Feed per the weight guide on the pack, usually split into two daily meals, and keep the routine consistent, because cats thrive on predictable feeding times. This is genuine imported stock with clear origin printing, a readable batch code and a printed expiry date on every sealed bag. If you are moving up from a kitten formula, transition over seven days, and consider adding an occasional Whiskas wet pouch for the hydration benefits of mixed feeding.",
+      "emoji": "🐱",
+      "genuine": [
+        "Check the manufacturing origin printing on the bag, it should be sharp and complete.",
+        "The batch code should be clearly printed near the seal, never smudged or missing.",
+        "Verify the printed expiry date gives several months of shelf life.",
+        "The bag must be factory sealed with intact seams and carry an importer label."
+      ],
+      "meta": "Buy Whiskas Junior 1.1kg cat food in Pakistan for PKR 2499. Genuine imported junior formula, sealed bag, printed expiry, COD nationwide.",
+      "name": "Whiskas Junior 1.1kg",
+      "price": 2499,
+      "related": [
+        "whiskas-adult-chicken-1-9kg",
+        "whiskas-kitten-chicken-1-9kg",
+        "me-o-adult-tuna-1-1kg"
+      ],
+      "slug": "whiskas-junior-1-1kg",
+      "stock": 20,
+      "image": "whiskas-junior-1-1kg.jpg"
+    },
+    {
+      "badge": "Bestseller",
+      "category": "cat-wet-food",
+      "desc": "The Whiskas Pouch Beef and Poultry 85g is the single serve wet meal that adds what dry food cannot: moisture. Cats are desert animals with a weak thirst drive, and wet food is the easiest way to lift their daily water intake, supporting urinary tract health over the long term. Each 85g pouch serves one meal for an average adult cat, with tender beef and poultry pieces in a savoury sauce that even picky eaters finish. At PKR 240 per pouch, it is an affordable daily topper over dry kibble, and the mixed feeding routine, dry food for grazing plus one wet pouch a day, is what most vets recommend. Serve at room temperature, refrigerate any unfinished portion and use within two days. Our pouches are genuine imported stock with printed expiry dates and intact seals; a puffed or leaking pouch should never be served, and we replace any damaged ones reported within 48 hours.",
+      "emoji": "🥫",
+      "genuine": [
+        "The pouch seal should be flat and intact on all edges, reject puffed or leaking pouches.",
+        "Check the printed expiry date on the back of the pouch for months of shelf life.",
+        "The batch code should be sharply printed, never smudged.",
+        "Look for clear brand printing and an importer label on the pack."
+      ],
+      "meta": "Buy Whiskas Pouch Beef and Poultry 85g in Pakistan for PKR 240. Genuine imported wet cat food, sealed pouch, printed expiry, cash on delivery nationwide.",
+      "name": "Whiskas Pouch Beef and Poultry 85g",
+      "price": 240,
+      "related": [
+        "whiskas-pouches-12x85g-jelly-variety",
+        "whiskas-meaty-meals-jelly-85g",
+        "whiskas-temptations-chicken-45g"
+      ],
+      "slug": "whiskas-pouch-beef-poultry-85g",
+      "stock": 48,
+      "image": "whiskas-pouch-beef-poultry-85g.png"
+    },
+    {
+      "badge": "Value Pack",
+      "category": "cat-wet-food",
+      "desc": "Cats get bored eating the same flavour daily, and the Whiskas Pouches 12x85g Jelly Variety Pack solves it in one box: twelve single serve pouches across multiple jelly flavours, so every meal feels new. Variety is not just about fussiness; rotating proteins gives a broader amino acid profile over the week, and the jelly texture adds the moisture that supports urinary health in cats with low thirst drive. Buying the 12 pack at PKR 2950 brings the per pouch cost to about PKR 246, barely above single pouch pricing, while saving you repeated orders. Feed one pouch per day as part of a mixed diet with dry kibble, or two pouches daily for cats on a mostly wet diet, adjusting to your cat's weight and activity. Store the box in a cool cupboard, serve pouches at room temperature, and refrigerate opened pouches for use within two days. All pouches are genuine imported stock with printed expiry dates and intact seals.",
+      "emoji": "🥫",
+      "genuine": [
+        "Each pouch seal should be flat and intact, reject any puffed or leaking pouch in the box.",
+        "Check the printed expiry date on the pouches for months of shelf life.",
+        "Batch codes should be sharply printed on every pouch.",
+        "The outer box should carry clear branding and an importer label."
+      ],
+      "meta": "Buy Whiskas 12x85g Jelly Variety Pack in Pakistan for PKR 2950. Genuine imported cat food pouches, sealed box, printed expiry, cash on delivery nationwide.",
+      "name": "Whiskas Pouches 12x85g Jelly Variety Pack",
+      "price": 2950,
+      "related": [
+        "whiskas-pouch-beef-poultry-85g",
+        "whiskas-meaty-meals-jelly-85g",
+        "me-o-creamy-treats-tuna"
+      ],
+      "slug": "whiskas-pouches-12x85g-jelly-variety",
+      "stock": 14,
+      "image": "whiskas-pouches-12x85g.jpg"
+    },
+    {
+      "category": "cat-wet-food",
+      "desc": "Some cats prefer their wet food with more chew, and Whiskas Meaty Meals in Jelly 85g delivers exactly that: hearty meaty pieces set in a light jelly that adds moisture without the richness of gravy. The 85g pouch is a perfect single meal for an adult cat, nutritionally complete so it can serve as a full diet or as the wet half of a mixed feeding routine. At PKR 250 per pouch it sits in the everyday affordable range, making it realistic to feed wet food daily rather than as an occasional treat. The jelly format also suits cats that lick gravy and leave the chunks, because the pieces stay coated and palatable to the last bite. Serve at room temperature for the best aroma, and refrigerate any leftovers for up to two days. Our stock is genuine imported with printed expiry dates on every pouch and intact factory seals. If a pouch ever arrives puffed or damaged, photograph it and we will replace it under our 48 hour policy.",
+      "emoji": "🥫",
+      "genuine": [
+        "The pouch seal should be flat and intact on all edges, reject puffed or leaking pouches.",
+        "Check the printed expiry date on the back of the pouch for months of shelf life.",
+        "The batch code should be sharply printed, never smudged.",
+        "Look for clear brand printing and an importer label on the pack."
+      ],
+      "meta": "Buy Whiskas Meaty Meals in Jelly 85g in Pakistan for PKR 250. Genuine imported wet cat food, sealed pouch, printed expiry, cash on delivery nationwide.",
+      "name": "Whiskas Meaty Meals in Jelly 85g",
+      "price": 250,
+      "related": [
+        "whiskas-pouch-beef-poultry-85g",
+        "whiskas-pouches-12x85g-jelly-variety",
+        "whiskas-temptations-chicken-45g"
+      ],
+      "slug": "whiskas-meaty-meals-jelly-85g",
+      "stock": 36,
+      "image": "whiskas-meaty-meals-jelly-85g.jpg"
+    },
+    {
+      "badge": "Training Treat",
+      "category": "cat-treats",
+      "desc": "Whiskas Temptations Chicken Treats 45g are the crunchy outside, soft inside treats that cats famously come running for, and smart owners use that obsession for training. Shake the pack and most cats appear on cue, which makes these ideal for recall practice, rewarding calm carrier behaviour, or simply reinforcing the bond. The 45g pack holds roughly a two week supply at the recommended few treats a day, and at PKR 600 it is a small price for a powerful motivator. Treats should stay under ten percent of daily calories, so use them as rewards rather than meals, and keep fresh water available as always. The resealable pack keeps the treats crunchy in our humidity, and every pack we sell is genuine imported stock with a printed expiry date and intact seal. For kittens, break treats into smaller pieces, and for multi-cat homes, hand treats out individually so every cat gets its fair share without squabbles.",
+      "emoji": "🦴",
+      "genuine": [
+        "The pack should be factory sealed with an intact resealable strip.",
+        "Check the printed expiry date on the back for months of shelf life.",
+        "The batch code should be sharply printed, never smudged.",
+        "Look for clear Whiskas branding and an importer label."
+      ],
+      "meta": "Buy Whiskas Temptations Chicken Treats 45g in Pakistan for PKR 600. Genuine imported cat treats, sealed pack, printed expiry, COD.",
+      "name": "Whiskas Temptations Chicken Treats 45g",
+      "price": 600,
+      "related": [
+        "me-o-creamy-treats-tuna",
+        "temptations-creamy-puree-salmon-4pack",
+        "whiskas-pouch-beef-poultry-85g"
+      ],
+      "slug": "whiskas-temptations-chicken-45g",
+      "stock": 22,
+      "image": "whiskas-temptations-chicken-45g.webp"
+    },
+    {
+      "category": "cat-treats",
+      "desc": "For the cat that licks gravy and ignores the bowl, Me-O Creamy Treats Tuna Pack is pure genius: smooth, lickable tuna cream in single serve sachets that turn even suspicious cats into enthusiastic eaters. Squeeze it directly from the sachet as a treat, drizzle it over dry kibble to tempt a fussy eater, or use it to disguise medication, because few cats can resist the creamy texture. The tuna recipe comes from Me-O's Thailand production, carrying the same quality standards as their dry food range. Note: the PKR 650 price is currently an estimate pending our next landed cost confirmation; pre-orders placed now are honoured at the listed price. Feed as an occasional treat within the ten percent treat rule, and refrigerate opened sachets for same day use. Every pack is factory sealed with a readable batch code and printed expiry date. Keep a pack in the cupboard for vet visit days, when a familiar tasty reward makes the carrier a little less scary.",
+      "emoji": "🦴",
+      "genuine": [
+        "Look for clear Made in Thailand printing on the pack, blurry origin text is a red flag.",
+        "Each sachet should be factory sealed with no leaks.",
+        "The batch code should be sharply printed, never smudged.",
+        "Check the printed expiry date for months of shelf life remaining."
+      ],
+      "meta": "Buy Me-O Creamy Treats Tuna Pack in Pakistan for PKR 650. Thailand origin lickable cat treats, sealed pack, printed expiry, cash on delivery nationwide.",
+      "name": "Me-O Creamy Treats Tuna Pack",
+      "price": 650,
+      "price_estimate": true,
+      "related": [
+        "whiskas-temptations-chicken-45g",
+        "temptations-creamy-puree-salmon-4pack",
+        "whiskas-pouches-12x85g-jelly-variety"
+      ],
+      "slug": "me-o-creamy-treats-tuna",
+      "stock": 16,
+      "image": "meo-creamy-treats.webp"
+    },
+    {
+      "badge": "Low Stock",
+      "category": "cat-treats",
+      "desc": "Temptations Creamy Puree Salmon 4 Pack takes the lickable treat concept further with four single serve salmon puree sachets, perfect for multi-cat homes or for spreading the joy across the week. The silky salmon puree works as a high value reward for training, a food topper for cats off their meals, or a bonding ritual squeezed straight from the sachet. Salmon brings omega fatty acids that support skin and coat health, making this a treat with a little extra function. Note: the PKR 1200 price is currently an estimate pending our next landed cost confirmation; pre-orders placed now are honoured at the listed price. Stock is limited on this batch, so order soon if your cat has already declared it a favourite. Keep treats within ten percent of daily intake, and store unopened sachets in a cool dry place. Every 4 pack is genuine imported stock with printed expiry dates and intact sachet seals.",
+      "emoji": "🦴",
+      "genuine": [
+        "Each sachet should be factory sealed with no leaks or puffiness.",
+        "Check the printed expiry date for months of shelf life remaining.",
+        "The batch code should be sharply printed on the outer pack.",
+        "Look for clear brand printing and an importer label."
+      ],
+      "meta": "Buy Temptations Creamy Puree Salmon 4 Pack in Pakistan for PKR 1200. Genuine imported cat treats, sealed sachets, printed expiry, COD.",
+      "name": "Temptations Creamy Puree Salmon 4 Pack",
+      "price": 1200,
+      "price_estimate": true,
+      "related": [
+        "whiskas-temptations-chicken-45g",
+        "me-o-creamy-treats-tuna",
+        "whiskas-meaty-meals-jelly-85g"
+      ],
+      "slug": "temptations-creamy-puree-salmon-4pack",
+      "stock": 9,
+      "image": "temptations-creamy-puree-salmon.jpg"
+    },
+    {
+      "badge": "Bestseller",
+      "category": "cat-litter",
+      "desc": "Klumpy Bentonite Cat Litter 5L Lavender is the clumping litter that converted thousands of Pakistani cat owners away from sand and non-clumping clay. Bentonite clay forms tight clumps around moisture on contact, so you scoop the clump and leave clean litter behind, which means the box stays fresher and each fill lasts far longer than non-clumping alternatives. The lavender scent masks odours without overwhelming the room, and the low dust formula keeps both your cat's lungs and your furniture happier. The 5L bag is the ideal trial size: enough to fill a standard litter box and judge the clumping for yourself, at PKR 650. Fill the box 7 to 10cm deep for best clump formation, scoop daily, and top up as needed rather than replacing the whole box. Most owners find the 5L bag lasts a single cat two to three weeks. Once you are convinced, the 10L options bring the per litre cost down significantly.",
+      "emoji": "🧹",
+      "genuine": [
+        "The bag should be factory sealed with no tears or moisture damage.",
+        "Check the printed batch and expiry style markings for a fresh production date.",
+        "The granules should be uniform in size with minimal dust at the bag bottom.",
+        "Look for clear brand printing and an importer or distributor label."
+      ],
+      "meta": "Buy Klumpy Bentonite Cat Litter 5L Lavender in Pakistan for PKR 650. Clumping litter, sealed bag, low dust, cash on delivery nationwide.",
+      "name": "Klumpy Bentonite Cat Litter 5L Lavender",
+      "price": 650,
+      "related": [
+        "premium-bentonite-litter-10l-lavender",
+        "easy-clean-emily-pets-litter-10l",
+        "bentonite-litter-10l-coffee"
+      ],
+      "slug": "klumpy-bentonite-litter-5l-lavender",
+      "stock": 30,
+      "image": "klumpy-cat-litter-5l.jpg"
+    },
+    {
+      "badge": "Value Pack",
+      "category": "cat-litter",
+      "desc": "If the 5L bag convinced you, the Premium Bentonite Cat Litter 10L Lavender is the economical next step: double the volume at PKR 1600, bringing the per litre cost well below the trial size. This is the same high grade bentonite that clumps fast and hard on contact, making daily scooping quick and keeping the remaining litter fresh for weeks. The lavender fragrance controls odour in apartments and closed rooms, while the low dust granules protect sensitive cats and keep floors cleaner. A 10L bag typically serves one cat for four to six weeks depending on box size and scooping habits. Maintain 7 to 10cm depth, scoop clumps daily, and do a full change monthly for the freshest box. Store the bag sealed in a dry place, because bentonite absorbs ambient moisture if left open. For multi-cat homes, this 10L size is the practical minimum, and many owners keep a second bag as backup so they never run out mid week.",
+      "emoji": "🧹",
+      "genuine": [
+        "The bag should be factory sealed with no tears or moisture damage.",
+        "Check the printed batch and production markings for freshness.",
+        "The granules should be uniform in size with minimal dust.",
+        "Look for clear brand printing and an importer or distributor label."
+      ],
+      "meta": "Buy Premium Bentonite Cat Litter 10L Lavender in Pakistan for PKR 1600. Clumping value pack, sealed bag, low dust, COD nationwide.",
+      "name": "Premium Bentonite Cat Litter 10L Lavender",
+      "price": 1600,
+      "related": [
+        "klumpy-bentonite-litter-5l-lavender",
+        "easy-clean-emily-pets-litter-10l",
+        "bentonite-litter-10l-coffee"
+      ],
+      "slug": "premium-bentonite-litter-10l-lavender",
+      "stock": 12
+    },
+    {
+      "category": "cat-litter",
+      "desc": "Easy Clean Emily Pets Cat Litter 10L Imported is the no fuss clumping litter for owners who want the box handled with minimum effort. The imported bentonite granules clump rapidly around waste, so a quick daily scoop keeps the box fresh, and the natural unscented formula suits cats that sneeze at fragranced litters or owners who prefer no perfume in the house. At PKR 1400 for 10L, it is one of the most competitively priced imported clumping litters in Pakistan, working out to about PKR 140 per litre. The low dust production keeps the area around the box cleaner and is kinder to cats with respiratory sensitivity. Fill 7 to 10cm deep, scoop daily, top up weekly, and fully refresh monthly. Because it is unscented, pair it with a covered box or good ventilation if odour control is your top priority, though regular scooping handles most of it. The sealed 10L bag stores easily in a dry corner and lasts a single cat well over a month.",
+      "emoji": "🧹",
+      "genuine": [
+        "The bag should be factory sealed with no tears or moisture damage.",
+        "Check the printed batch and production markings for freshness.",
+        "Granules should be uniform with minimal dust at the bag bottom.",
+        "Look for clear brand printing and an importer or distributor label."
+      ],
+      "meta": "Buy Easy Clean Emily Pets Cat Litter 10L in Pakistan for PKR 1400. Imported clumping litter, sealed bag, low dust, cash on delivery.",
+      "name": "Easy Clean Emily Pets Cat Litter 10L Imported",
+      "price": 1400,
+      "related": [
+        "klumpy-bentonite-litter-5l-lavender",
+        "premium-bentonite-litter-10l-lavender",
+        "bentonite-litter-10l-coffee"
+      ],
+      "slug": "easy-clean-emily-pets-litter-10l",
+      "stock": 18
+    },
+    {
+      "category": "cat-litter",
+      "desc": "Bentonite Cat Litter 10L Coffee Scent brings something different to the litter aisle: a warm coffee fragrance that neutralises odours naturally, a pleasant change for owners tired of floral and chemical scents. Beneath the scent is proper clumping bentonite that locks moisture into tight, easy to scoop clumps, extending the life of each fill far beyond non-clumping clay or sand. The coffee aroma is subtle rather than overpowering, and most cats accept it without hesitation, though as with any scented litter, watch your cat's first few uses to confirm comfort. At PKR 1500 for 10L, it is priced in line with other premium imported litters while offering a distinctive odour control angle. Use the standard routine: 7 to 10cm depth, daily scooping, weekly top ups, monthly full change. The sealed bag keeps the fragrance locked in until you open it, so store it dry and reseal between refills. A good pick for living rooms and bedrooms where the litter box shares your space.",
+      "emoji": "🧹",
+      "genuine": [
+        "The bag should be factory sealed with no tears or moisture damage.",
+        "Check the printed batch and production markings for freshness.",
+        "Granules should be uniform with a light coffee aroma, not chemical.",
+        "Look for clear brand printing and an importer or distributor label."
+      ],
+      "meta": "Buy Bentonite Cat Litter 10L Coffee Scent in Pakistan for PKR 1500. Clumping litter, coffee odour control, sealed bag, cash on delivery nationwide.",
+      "name": "Bentonite Cat Litter 10L Coffee Scent",
+      "price": 1500,
+      "related": [
+        "klumpy-bentonite-litter-5l-lavender",
+        "premium-bentonite-litter-10l-lavender",
+        "easy-clean-emily-pets-litter-10l"
+      ],
+      "slug": "bentonite-litter-10l-coffee",
+      "stock": 11
+    },
+    {
+      "badge": "Low Stock",
+      "category": "coffee",
+      "desc": "Nescafe Gold 200g is the instant coffee that tastes closer to brewed than any regular instant, and the imported 200g jar is the size serious coffee drinkers in Pakistan keep on the kitchen shelf. The golden freeze dried granules dissolve cleanly in hot water or milk without the bitter edge of cheaper instants, and the aroma on opening the jar is the reason people switch and never go back. A 200g jar makes roughly 110 cups, which brings the per cup cost well below cafe prices and even below most local 3-in-1 sachets once you do the math. Because instant coffee absorbs moisture fast in our climate, the factory sealed jar matters more than the brand name: every jar we ship arrives with the foil seal intact, a readable batch code and a printed expiry date with months of shelf life. At PKR 3200, this is genuine imported stock, not the diverted jars with rubbed off dates seen in some markets. Store tightly closed away from the stove with a dry spoon, and it will stay fresh to the last granule.",
+      "emoji": "☕",
+      "genuine": [
+        "The foil seal under the lid must be fully sealed, reject jars with a broken seal.",
+        "Check the batch code and printed expiry date on the base of the jar.",
+        "The granules should be golden brown and free flowing, not dark or clumped.",
+        "Look for clear brand printing and an importer label on the jar."
+      ],
+      "meta": "Buy Nescafe Gold 200g in Pakistan for PKR 3200. Genuine imported instant coffee, sealed jar, printed expiry, cash on delivery nationwide.",
+      "name": "Nescafe Gold 200g",
+      "price": 3200,
+      "related": [
+        "stevia-sweetener",
+        "haribo-goldbears-200g",
+        "whiskas-temptations-chicken-45g"
+      ],
+      "slug": "nescafe-gold-200g",
+      "stock": 9
+    },
+    {
+      "badge": "New",
+      "category": "stevia-sweeteners",
+      "desc": "Stevia Sweetener is the plant derived sweetener that lets you cut sugar without giving up sweetness: extracted from stevia leaves, it tastes many times sweeter than sugar per spoon, so a little goes a long way in chai, coffee and desserts. Many Pakistani households are switching a portion of their sugar use to stevia, and keeping a pack beside the sugar jar makes the transition gradual and painless. Start with half the amount you would use of sugar and adjust to taste, because overdoing it is the most common beginner mistake. A note of honesty: the brand for this listing is still being finalised and the PKR 950 price is an estimate pending our next shipment confirmation; pre-orders placed now are honoured at the listed price. We make no medical or health claims about stevia; if you have diabetes or any medical condition, please consult your doctor before changing your diet. Every pack we sell is factory sealed with a printed expiry date and a readable batch code.",
+      "emoji": "🌿",
+      "genuine": [
+        "The pack should be factory sealed with no tears or moisture ingress.",
+        "Check the printed expiry date for months of shelf life remaining.",
+        "The batch code should be sharply printed, never smudged.",
+        "The ingredient panel should clearly list stevia extract as the sweetening agent."
+      ],
+      "meta": "Buy Stevia Sweetener in Pakistan for PKR 950. Plant derived sugar alternative, sealed pack, printed expiry, cash on delivery nationwide.",
+      "name": "Stevia Sweetener",
+      "price": 950,
+      "price_estimate": true,
+      "related": [
+        "nescafe-gold-200g",
+        "haribo-goldbears-200g",
+        "me-o-creamy-treats-tuna"
+      ],
+      "slug": "stevia-sweetener",
+      "stock": 25,
+      "image": "stevia-powder.png"
+    },
+    {
+      "badge": "Imported",
+      "category": "jellies-candy",
+      "desc": "Haribo Goldbears 200g are the original gummy bears, made in Germany since 1922, and the 200g bag is the size that disappears fastest at family gatherings across Pakistan. The bears come in five fruit flavours with the firm chewy texture that copycat gummies never quite match, and because the recipe uses real fruit juice concentrates, the taste is brighter than overly sweet local jelly candies. Parents often ask about ingredients before buying imported gummies, so here is our honest policy: the full ingredient list is printed on every bag we sell, and you can message us on WhatsApp for a photo of the label before ordering. The resealable bag keeps the bears soft for weeks after opening, which matters in our dry winter months when exposed candy hardens fast. At PKR 950, the 200g bag works out cheaper per gram than the small packs sold at mall kiosks, and it ships with cash on delivery anywhere in Pakistan. A fun addition to gift boxes alongside our cat treats for the pet loving households.",
+      "emoji": "🐻",
+      "genuine": [
+        "The Haribo logo and gold bear mascot should be printed sharply, blurry print is a red flag.",
+        "Check the printed expiry date and batch code on the back seal of the bag.",
+        "Read the full ingredient list, genuine bags carry complete multilingual labelling.",
+        "The bag seal should be factory crimped on both ends, not resealed."
+      ],
+      "meta": "Buy Haribo Goldbears 200g in Pakistan for PKR 950. Genuine imported gummy bears, sealed bag, printed expiry, cash on delivery nationwide.",
+      "name": "Haribo Goldbears 200g",
+      "price": 950,
+      "related": [
+        "stevia-sweetener",
+        "nescafe-gold-200g",
+        "temptations-creamy-puree-salmon-4pack"
+      ],
+      "slug": "haribo-goldbears-200g",
+      "stock": 26,
+      "image": "haribo-goldbears-200g.jpg"
+    }
+  ]
+}
